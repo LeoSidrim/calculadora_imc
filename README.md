@@ -15,4 +15,4 @@ Projeto utilizando HTML, CSS e JS para criação de uma calculadora de IMC, índ
 ### Propósito
 Fortalecer minha base utilizando HTML, CSS e JS. Utilizando html semântico, aprendendo mais sobre flex no css e adicionando interatividade com JS. 
 
-!(Imagem)[./img/Captura de tela de 2026-03-13 19-45-17.pngp]
+<img src="./img/Captura de tela de 2026-03-13 19-45-17.png">
