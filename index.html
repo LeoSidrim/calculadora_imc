@@ -1,53 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="main.js" defer></script>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="main.js" defer></script>
-</head>
+    <body>
+        <main>
+            <div id="container-card">
+                <div id="card-header">
+                    <h2>Calculadora IMC</h2>
+                    <p>Índice de massa corporal - IMC</p>
+                </div>
 
-<body>
+                <div id="card-content">
+                    <div class="field">
+                        <label for="altura">Altura:</label>
+                        <input name="altura" id="altura" type="number" />
+                    </div>
 
-    <main>
+                    <div class="field">
+                        <label for="peso">Peso:</label>
+                        <input name="peso" id="peso" type="number" />
+                    </div>
 
-        <div id="container-card">
-            
-            <div id="card-header">
-                <h2>Calculadora IMC</h2>
-                <p>Índice de massa corporal - IMC</p>
+                    <div class="field">
+                        <button type="button" id="mybtn">Calcular</button>
+                    </div>
+
+                    <div class="field">
+                        <p>Resultado:</p>
+                        <output id="resultadoValue"></output>
+                        <p id="textValue"></p>
+                    </div>
+                </div>
             </div>
-
-            <div id="card-content">
-
-                <div class="field">
-                    <label for="altura">Altura:</label>
-                    <input name="altura" id="altura" type="number"> 
- 
-                </div>
-
-                <div class="field">
-                    <label for="peso">Peso:</label>
-                    <input name="peso" id="peso" type="number"> 
-                </div>
-
-                <div class="field">
-                    <button type="button" id="mybtn">Calcular</button>
-                </div>
-
-                <div class="field">
-                    <p>Resultado:</p>
-                    <output id="resultadoValue"></output>
-                    <p id="textValue"></p>
-                </div>
-
-            </div>
-
-        </div>
-
-    </main>
-
-</body>
+        </main>
+    </body>
 </html>
